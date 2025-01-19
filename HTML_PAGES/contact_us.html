@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Sportscar Landing Page</title>
+    <link rel="stylesheet" href="/CSS_PAGES/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/pngs/McLaren_.svg" alt="Sportscar Logo">
+            </div>
+            <ul class="nav-links">
+                <li ><a href="/main.html">Home</a></li>
+                <li ><a href="models.html">Models</a></li>
+                <!-- <li class="features"><a href="#features">Features</a></li> -->
+                <li ><a href="gallery.html">Gallery</a></li>
+                <li ><a href="contact_us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section id="contact" class="contact-form sections">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions about our models or want to schedule a test drive? Reach out to us!</p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 McLaren Way, Woking, Surrey, UK</li>
+                        <li><i class="fas fa-phone"></i> +44 1234 567890</li>
+                        <li><i class="fas fa-envelope"></i> @mclarenexample.com</li>
+                    </ul>
+                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label class= "name_label" for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class= "email_label" for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label class= "subject_label" for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label class= "message_label" for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="/pngs/McLaren_.svg" alt="McLaren Logo" class="footer-logo">
+                <p>Experience the pinnacle of automotive engineering and luxury with McLaren.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/main.html">Home</a></li>
+                    <li><a href="/HTML_PAGES/models.html">Models</a></li>
+                    <li><a href="/HTML_PAGES/gallery.html">Gallery</a></li>
+                    <li><a href="/HTML_PAGES/contact_us.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 McLaren Way, Woking, Surrey, UK</p>
+                <p><i class="fas fa-phone"></i> +44 1234 567890</p>
+                <p><i class="fas fa-envelope"></i> info@mclarenexample.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 McLaren Automotive. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

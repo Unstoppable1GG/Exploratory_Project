@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury Sportscar Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS_PAGES/models.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
 </head>
@@ -13,36 +13,41 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="pngs/McLaren_.svg" alt="Sportscar Logo">
+                <img src="/pngs/McLaren_.svg" alt="Sportscar Logo">
             </div>
             <ul class="nav-links">
-                <li ><a href="#home">Home</a></li>
-                <li ><a href="HTML_PAGES/models.html">Models</a></li>
+                <li ><a href="/main.html">Home</a></li>
+                <li ><a href="models.html">Models</a></li>
                 <!-- <li class="features"><a href="#features">Features</a></li> -->
-                <li ><a href="HTML_PAGES/gallery.html">Gallery</a></li>
-                <li ><a href="HTML_PAGES/contact_us.html">Contact</a></li>
+                <li ><a href="gallery.html">Gallery</a></li>
+                <li ><a href="contact_us.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-        <section id="home" class="main sections">
-            <div class="video-background">
-                <video autoplay loop muted playsinline>
-                    <source src="videos/11601855-uhd_4096_2160_24fps.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="main-content">
-            <h1>Experience Pure Performance</h1>
-            <p>Discover our latest line of luxury sportscars</p>
-            <a href="HTML_PAGES/models.html" class="cta-button">Explore Models</a>
+    
+        <section id="models" class="car-models sections">
+            <h2>Our Models</h2>
+            <div class="model-grid">
+                <div class="model model1">
+                    <img src="/pngs/cars/13112019_mclaren_elva_image-02.webp" alt="Model 1">
+                </div>
+                <div class="model model2">
+                    <img src="/pngs/cars/3mclaren570scarreviewmarch2016.webp" alt="Model 2">
+                </div>
+                <div class="model model3">
+                    <img src="/pngs/cars/mclaren_765lt_track_07.webp" alt="Model 3">
+                </div>
+                <div class="model model4">
+                    <img src="/pngs/cars/mclaren-gt-globaltestdrive-0069.webp" alt="Model 4">
+                </div>
+                <button class="scroll-down">Scroll</button>
             </div>
         </section>
 
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section about">
-                <img src="pngs/McLaren_.svg" alt="McLaren Logo" class="footer-logo">
+                <img src="/pngs/McLaren_.svg" alt="McLaren Logo" class="footer-logo">
                 <p>Experience the pinnacle of automotive engineering and luxury with McLaren.</p>
                 <div class="social-icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -54,10 +59,10 @@
             <div class="footer-section links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#models">Models</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/main.html">Home</a></li>
+                    <li><a href="/HTML_PAGES/models.html">Models</a></li>
+                    <li><a href="/HTML_PAGES/gallery.html">Gallery</a></li>
+                    <li><a href="/HTML_PAGES/contact_us.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section contact">
@@ -72,6 +77,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/JS_SCRIPTS/models.js"></script>
 </body>
 </html>
